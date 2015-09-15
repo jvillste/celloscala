@@ -1,0 +1,3 @@
+mvn install:install-file -Dpackaging=jar -DcreateChecksum=true -DgeneratePom=true -DgroupId=de.huxhorn.sulky -DartifactId=de.huxhorn.sulky.3rdparty.jlayer -Dversion=1.0 -Dfile=jl1.0.jar
+mvn install:install-file -Dpackaging=jar -DcreateChecksum=true -DgeneratePom=true -DgroupId=de.huxhorn.sulky -DartifactId=de.huxhorn.sulky.3rdparty.tritonusshare -Dversion=1.0 -Dfile=tritonus_share.jar
+mvn install:install-file -Dpackaging=jar -DcreateChecksum=true -DgeneratePom=true -DgroupId=de.huxhorn.sulky -DartifactId=de.huxhorn.sulky.3rdparty.mp3spi -Dversion=1.9.4 -Dfile=mp3spi1.9.4.jar
